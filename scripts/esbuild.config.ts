@@ -21,7 +21,7 @@ await $`rm -rf ${distDir}`;
 await $`mkdir -p ${distDir}`;
 
 const context = await esbuild.context({
-  entryPoints: ["./src/main.ts", "./src/styles.css"],
+  entryPoints: ["./src/main.ts"],
   outdir: distDir.toString(),
   bundle: true,
   external: [
