@@ -1,31 +1,31 @@
-# Obsidian Plugin Template (with Deno)
+# Obsidian Sync Config
 
-This is a sample plugin for [Obsidian](https://obsidian.md).
+This plugin automatically copies your Obsidian configuration directory to `_obsidian` folder in your vault.
 
-You can use [Deno](https://deno.com) for almost everything in development!
+## Features
+
+- Automatically copies `.obsidian` config to `_obsidian` on plugin load
+- Manual copy command available via Command Palette: "Copy config to _obsidian"
+
+## Usage
+
+1. Install the plugin
+2. The plugin will automatically copy your config on startup
+3. To manually copy config, open Command Palette (Ctrl/Cmd + P) and run "Copy config to _obsidian"
+
+## Development
+
+This plugin is built with [Deno](https://deno.com)!
 
 - Runtime: **Deno**
 - Formatter: **Deno**
 - Linter: **Deno** + **ESLint** (with `eslint-plugin-obsidianmd`)
 - Type Checker: **Deno**
-- Bundler: **esbuild** (`deno bundle` is back in v2.4, but lack of features)
+- Bundler: **esbuild**
 
 See
 [obsidianmd/obsidian-sample-plugin](https://github.com/obsidianmd/obsidian-sample-plugin)
 for details.
-
-## Setup
-
-**To simplify the explanation, we assume the plugin name is `my-feature`.**
-
-1. Create a new repository `<yourname>/obsidian-my-feature` from this template
-2. Clone the repository
-3. Rename variables in `manifest.json` and `main.ts`
-   - `id` should be `my-feature` (DON'T include `obsidian-` prefix)
-   - `name` should be `My Feature`
-   - The plugin class name should be `MyFeaturePlugin`
-
-## Development
 
 Want to contribute to this repository? Thank you!
 
