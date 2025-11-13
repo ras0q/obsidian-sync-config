@@ -1,7 +1,7 @@
 {
   "id": "sync-config",
   "name": "Sync Config",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "minAppVersion": "1.7.2",
   "description": "Copy Obsidian configuration to _obsidian directory",
   "author": "ras0q",
